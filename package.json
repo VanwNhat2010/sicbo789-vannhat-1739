@@ -1,14 +1,20 @@
 {
-  "name": "sic789-vannhat-1739",
+  "name": "proxy-api",
   "version": "1.0.0",
-  "description": "A simple proxy API to restructure data.",
+  "description": "Proxy API to add an ID to the original response.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "keywords": [
+    "api",
+    "proxy",
+    "nodejs"
+  ],
+  "author": "VANW NHẬT LELP",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8",
-    "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
   }
 }
